@@ -1,1 +1,97 @@
-
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/Resources <<
+/Font <<
+/F1 4 0 R
+>>
+>>
+/MediaBox [0 0 612 792]
+/Contents 5 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+5 0 obj
+<<
+/Length 2000
+>>
+stream
+BT
+/F1 18 Tf
+50 750 Td
+(Checklist da Aula 1) Tj
+0 -30 Td
+/F1 12 Tf
+(Antes de avancar para a proxima aula, verifique se voce consegue explicar:) Tj
+0 -30 Td
+() Tj
+0 -20 Td
+(O que e um alfabeto Σ? E um conjuntos de) Tj
+0 -20 Td
+(O que e uma cadeia; um afkas) Tj
+0 -20 Td
+(O que significa ε;) Tj
+0 -20 Td
+(Por que |ε| = 0;) Tj
+0 -20 Td
+(O que e um prefixo;) Tj
+0 -20 Td
+(O que e um sufixo;) Tj
+0 -20 Td
+(O que significa Σ*;) Tj
+0 -20 Td
+(Se Σ* possui limite de tamanho;) Tj
+0 -20 Td
+(O que e uma linguagem formal L;) Tj
+0 -20 Td
+(O que significa L ⊆ Σ*;) Tj
+0 -20 Td
+(O que e uma gramatica formal;) Tj
+0 -20 Td
+(O que sao terminais e nao terminais;) Tj
+0 -20 Td
+(O que e uma regra de producao;) Tj
+0 -20 Td
+(Como ler S → aS | ε;) Tj
+0 -20 Td
+(Como gerar palavras usando uma gramatica.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000214 00000 n 
+0000000301 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+2353
+%%EOF
