@@ -183,3 +183,47 @@ Não pode ser gerada. O único jeito de introduzir um 1 é através da regra S�
 
 6. 1001
 Não pode ser gerada, pelo mesmo motivo do item anterior.
+
+---
+
+## Desafio final
+
+Gramática:
+S→aS ∣ b
+
+1. A palavra b pode ser gerada?
+Sim. Basta aplicar a regra S→b diretamente, sem usar S→aS nenhuma vez.
+S ⇒ b
+
+2. A palavra ab pode ser gerada?
+Sim. Aplico S→aS uma vez, e depois S→b para encerrar.
+S ⇒ aS ⇒ ab
+
+3. A palavra aab pode ser gerada?
+Sim. Preciso de dois as antes do b, então aplico S→aS duas vezes, e depois S→b.
+S ⇒ aS ⇒ aaS ⇒ aab
+
+4. A palavra aaab pode ser gerada?
+Sim. Preciso de três as antes do b, então aplico S→aS três vezes, e depois S→b.
+S ⇒ aS ⇒ aaS ⇒ aaaS ⇒ aaab
+
+5. A palavra aba pode ser gerada?
+Não. O motivo é que a única forma de "encerrar" a derivação é aplicando S→b, e essa regra troca o S por b sem deixar mais nenhum S para continuar a produção. Uma vez que o b aparece, ele tem que ser o último símbolo da palavra. Em aba, o b aparece no meio da palavra, e depois dele ainda tem um a. Não existe regra que permita continuar produzindo depois do b. Então aba não pertence à linguagem.
+
+6. Escreva a derivação completa de aaaab.
+A palavra aaaab tem quatro as seguidos de um b. Então preciso aplicar S→aS quatro vezes, e no final aplicar S→b:
+S ⇒ aS ⇒ aaS ⇒ aaaS ⇒ aaaaS ⇒ aaaab
+
+Passo a passo:
+S ⇒ aS (1ª aplicação de S→aS)
+⇒ aaS (2ª aplicação)
+⇒ aaaS (3ª aplicação)
+⇒ aaaaS (4ª aplicação)
+⇒ aaaab (aplicação de S→b)
+
+7. Descreva, com suas palavras, o padrão das palavras geradas por essa gramática.
+Essa gramática gera palavras formadas por zero ou mais as seguidos de exatamente um b no final. O b sempre aparece uma única vez, e sempre na última posição da palavra; antes dele só podem existir as (podendo até não ter nenhum a).
+Isso acontece porque a regra S→aS "cresce" a palavra adicionando as na frente, enquanto a regra S→b "termina" a derivação, colocando o b como último símbolo.
+
+Em notação mais formal, a linguagem gerada é:
+L(G) = {a^n b ∣ n≥0}
