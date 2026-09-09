@@ -1,6 +1,6 @@
 # Relatório de Validação e Resoluções - Expressões Regulares
 
-## 1. Exercício Guiado
+## 1.a) Exercício Guiado
 
 ### Questão 1: Termina em 00
 * **Linguagem:** Conjunto de palavras sobre o alfabeto {0,1} que terminam obrigatoriamente com o sufixo "00".
@@ -18,7 +18,7 @@
 
 <br>
 
-### Questão 2: Exatamente dois 'a'
+### 1.b) Exatamente dois 'a'
 * **Linguagem:** Conjunto de palavras sobre o alfabeto {a,b} que contêm o caractere 'a' exatamente duas vezes.
 * **Regex:** `^b*ab*ab*$`
 * **Link de Validação:** [https://www.phpliveregex.com/p/Pqs](https://www.phpliveregex.com/p/Pqs)
@@ -35,7 +35,7 @@
 
 <br>
 
-### Questão 3: Identificador
+### 1.c) Identificador
 * **Linguagem:** Conjunto de strings que começam estritamente com duas letras maiúsculas, seguidas por três algarismos, e terminam com uma letra minúscula opcional.
 * **Regex:** `^[A-Z]{2}[0-9]{3}[a-z]?$`
 
