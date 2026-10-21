@@ -16,6 +16,9 @@ O projeto está organizado por unidades, acompanhando a estrutura de aulas da di
 * **[Unidade 2 - Gramáticas Formais](./Unidade2_GramaticasFormais/)**
   * Notas de aula e materiais-base
   * Minhas resoluções e atividades da unidade
+* **[Inteligência Artificial - Capítulo 2: Agentes Inteligentes](./InteligenciaArtificial/Capitulo_2/)**
+  * Resolução dos Exercícios 2.3, 2.4 e 2.5 (Aula 11 - 20/10/2026 - A2)
+  * Arquivo: `Aula11_Atividade_Agentes_Inteligentes_20out_EdmarMelo.md`
 
 ## 📝 Sobre este projeto
 
